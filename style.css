@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+label {
+    display: inline-table;
+}
+
+input {
+    display: block;
+    margin-right: 10px
+}
+
+input.checkbox {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+input.submit {
+    display: inline-table;
+}
+
+select {
+    display: block;
+    width: 100px;
+    margin-right: 10px
+}
+
+div {
+    margin-top: 10px
+}
+
+.descriptionBox {
+    width: 300px;
+}
