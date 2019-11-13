@@ -16,10 +16,6 @@ input.checkbox {
     margin-right: 5px;
 }
 
-input.submit {
-    display: inline-table;
-}
-
 select {
     display: block;
     width: 100px;
@@ -32,4 +28,50 @@ div {
 
 .descriptionBox {
     width: 300px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    display: inline-table;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(65, 80, 211);
+    border: none;
+    border-radius: 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
